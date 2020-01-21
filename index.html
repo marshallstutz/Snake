@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>snake</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script src="snake.js"></script>
+	<script src="snack.js"></script>
+	<script src="ga.js"></script>
+	<script src="nn.js"></script>
+	<script src="matrix.js"></script>
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+  <div id="canvascontainer"></div>
+  <p>
+    <br/> high score: <span id="ahs">0</span>
+	<br/> number of runs: <span id="nr">0</span>
+	<br/> Average score: <span id="avg">0</span>
+  </p>
+  <p>
+    <button id="show">Show: 1 snake</button>
+  </p>
+</body>
+</html>
